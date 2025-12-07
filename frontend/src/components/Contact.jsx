@@ -18,7 +18,7 @@ const Contact = () => {
     setErrorMsg("");
 
     try {
-      const res = await fetch("http://13.203.204.44:5000", {
+      const res = await fetch("http://13.203.204.44:5000/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
