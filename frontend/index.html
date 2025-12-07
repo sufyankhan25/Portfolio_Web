@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <!-- Mobile Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Portfolio Title -->
+    <title>Muhammad Sufyan – MERN Stack Developer | Portfolio</title>
+
+    <!-- SEO Description -->
+    <meta
+      name="description"
+      content="I'm Muhammad Sufyan, a MERN Stack Developer skilled in React, Node.js, Express, MongoDB, and full-stack development. Explore my projects, experience, and portfolio."
+    />
+
+    <!-- SEO Keywords -->
+    <meta
+      name="keywords"
+      content="MERN Stack Developer, React Developer, Node.js Developer, Full Stack Developer, MongoDB, Express.js, JavaScript Developer, Portfolio, Web Developer, Karachi"
+    />
+
+    <!-- Author -->
+    <meta name="author" content="Muhammad Sufyan" />
+
+    <!-- Open Graph (For LinkedIn, WhatsApp, Facebook Preview) -->
+    <meta property="og:title" content="Muhammad Sufyan – MERN Stack Developer" />
+    <meta
+      property="og:description"
+      content="Professional MERN Stack Developer Portfolio showcasing real-world projects, UI/UX design, and backend expertise."
+    />
+    <meta property="og:image" content="/banner.png" />
+    <meta property="og:url" content="https://your-portfolio-link.vercel.app" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Muhammad Sufyan – MERN Stack Developer" />
+    <meta
+      name="twitter:description"
+      content="Explore my full-stack MERN projects, UI/UX work, backend APIs, and real-world apps."
+    />
+    <meta name="twitter:image" content="/banner.png" />
+
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <!-- React Entry Script -->
+    <script type="module" src="/src/main.jsx"></script>
+
+    <!-- ========== DocsBot AI Chatbot Script Start ========== -->
+    <script type="text/javascript">
+      window.DocsBotAI = window.DocsBotAI || {};
+      DocsBotAI.init = function (e) {
+        return new Promise((t, r) => {
+          var n = document.createElement("script");
+          n.type = "text/javascript";
+          n.async = true;
+          n.src = "https://widget.docsbot.ai/chat.js";
+          let o = document.getElementsByTagName("script")[0];
+          o.parentNode.insertBefore(n, o);
+          n.addEventListener("load", () => {
+            let n;
+            Promise.all([
+              new Promise((t, r) => {
+                window.DocsBotAI.mount(Object.assign({}, e)).then(t).catch(r);
+              }),
+              (n = function waitForSelector(t) {
+                return new Promise((e) => {
+                  if (document.querySelector(t)) return e(document.querySelector(t));
+                  let observer = new MutationObserver(() => {
+                    if (document.querySelector(t)) {
+                      e(document.querySelector(t));
+                      observer.disconnect();
+                    }
+                  });
+                  observer.observe(document.body, { childList: true, subtree: true });
+                });
+              })("#docsbotai-root"),
+            ])
+              .then(() => t())
+              .catch(r);
+          });
+          n.addEventListener("error", (e) => {
+            r(e.message);
+          });
+        });
+      };
+    </script>
+
+    <script type="text/javascript">
+      DocsBotAI.init({
+        id: "62DoZ0w4NYOL67cBTQVa/1zTprZ6PykLgJxSr6PeT" // Your Bot ID
+      });
+    </script>
+    <!-- ========== DocsBot AI Chatbot Script End ========== -->
+  </body>
+</html>
