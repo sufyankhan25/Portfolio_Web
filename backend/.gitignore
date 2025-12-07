@@ -1,0 +1,9 @@
+# Dependencies (Yeh bohot bhari hoti hain, upload nahi karni)
+node_modules/
+
+# Secrets (Yeh private rakhne hain)
+.env
+
+# System Files (Mac/Windows ki extra files)
+.DS_Store
+Thumbs.db

@@ -1,0 +1,29 @@
+{
+  "name": "sufyan-portfolio-backend",
+  "version": "1.0.0",
+  "description": "Backend for Sufyan Portfolio Management System (MERN + AWS)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "lint": "eslint .",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "author": "Muhammad Sufyan",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.940.0",
+    "@aws-sdk/client-ses": "^3.382.0",
+    "@aws-sdk/s3-request-presigner": "^3.382.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.0",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.5.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
